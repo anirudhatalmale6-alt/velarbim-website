@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VelarBIM | MEP BIM Modelling & Coordination | Australia & UK</title>
+<meta name="description" content="VelarBIM delivers precision MEP BIM modelling, clash detection, and consulting for complex construction projects across Australia and the UK. 10+ years experience, 20+ major projects.">
+<meta name="keywords" content="BIM modelling, MEP BIM, clash detection, BIM coordination, BIM consulting, Revit modelling, MEP engineer, construction technology, BIM services Australia, BIM services UK, VDC, virtual design and construction">
+<meta property="og:title" content="VelarBIM | MEP BIM Modelling & Coordination">
+<meta property="og:description" content="Precision MEP modelling, coordination, and consulting for complex construction projects across Australia and the UK.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.velarbim.com">
+<link rel="canonical" href="https://www.velarbim.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#hero" class="nav__logo">
+      <span class="nav__logo-mark">V</span>
+      <span class="nav__logo-text">VelarBIM</span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact" class="nav__cta">Get in Touch</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="hero">
+  <div class="hero__grid-bg"></div>
+  <div class="hero__content">
+    <div class="hero__badge reveal">MEP BIM Consultancy</div>
+    <h1 class="hero__title reveal">
+      <span class="hero__title-line">BIM Solutions</span>
+      <span class="hero__title-line hero__title-accent">That Build <em>Confidence</em></span>
+    </h1>
+    <p class="hero__sub reveal">Precision MEP modelling, coordination, and consulting for complex construction projects across Australia and the UK.</p>
+    <div class="hero__actions reveal">
+      <a href="#projects" class="btn btn--primary">View Our Projects</a>
+      <a href="#contact" class="btn btn--outline">Get in Touch</a>
+    </div>
+  </div>
+  <div class="hero__scroll-indicator">
+    <span>Scroll</span>
+    <div class="hero__scroll-line"></div>
+  </div>
+</section>
+
+<!-- Services Overview -->
+<section class="overview" id="overview">
+  <div class="container">
+    <div class="overview__grid">
+      <div class="overview__card reveal">
+        <div class="overview__card-number">01</div>
+        <h3 class="overview__card-title">MEP BIM Modelling</h3>
+        <p>Detailed 3D models for mechanical, electrical, and plumbing systems. Built in Revit to LOD 300-400 standards, ready for coordination and construction.</p>
+      </div>
+      <div class="overview__card reveal">
+        <div class="overview__card-number">02</div>
+        <h3 class="overview__card-title">Clash Detection &amp; Coordination</h3>
+        <p>Early identification of spatial conflicts between building systems. We resolve clashes before they reach site, saving time and reducing rework.</p>
+      </div>
+      <div class="overview__card reveal">
+        <div class="overview__card-number">03</div>
+        <h3 class="overview__card-title">BIM Consulting &amp; Management</h3>
+        <p>Strategic BIM implementation, project setup, standards development, and team training. We help firms adopt BIM workflows that deliver real results.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="stats">
+  <div class="container">
+    <div class="stats__grid">
+      <div class="stats__item reveal">
+        <span class="stats__number" data-target="10">0</span><span class="stats__plus">+</span>
+        <span class="stats__label">Years Experience</span>
+      </div>
+      <div class="stats__divider"></div>
+      <div class="stats__item reveal">
+        <span class="stats__number" data-target="20">0</span><span class="stats__plus">+</span>
+        <span class="stats__label">Major Projects</span>
+      </div>
+      <div class="stats__divider"></div>
+      <div class="stats__item reveal">
+        <span class="stats__number" data-target="2">0</span>
+        <span class="stats__label">Industry Awards</span>
+      </div>
+    </div>
+    <p class="stats__sub reveal">From hospitals and data centres to airports and commercial towers &mdash; we&rsquo;ve delivered BIM solutions for some of the most complex projects in Australia and the UK.</p>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-header__tag">What We Do</span>
+      <h2 class="section-header__title">Our Services</h2>
+      <p class="section-header__sub">We provide end-to-end BIM services for the MEP disciplines. Whether you need detailed modelling, coordination support, or strategic BIM consulting, we bring the technical depth and project experience to deliver.</p>
+    </div>
+
+    <div class="services__list">
+      <div class="service reveal" id="service-1">
+        <div class="service__header" onclick="toggleService(1)">
+          <div class="service__num">01</div>
+          <h3 class="service__title">MEP BIM Modelling</h3>
+          <div class="service__toggle"><span></span><span></span></div>
+        </div>
+        <div class="service__body">
+          <p>We create detailed, construction-ready 3D models for mechanical, electrical, and plumbing systems using Autodesk Revit. Our models are built to LOD 300-400, fully parametric, and coordinated with architectural and structural disciplines.</p>
+          <ul class="service__includes">
+            <li>HVAC ductwork and pipework modelling</li>
+            <li>Electrical containment and distribution layouts</li>
+            <li>Plumbing and drainage systems</li>
+            <li>Equipment scheduling and specification</li>
+            <li>Model auditing and quality checks</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="service reveal" id="service-2">
+        <div class="service__header" onclick="toggleService(2)">
+          <div class="service__num">02</div>
+          <h3 class="service__title">Clash Detection &amp; Coordination</h3>
+          <div class="service__toggle"><span></span><span></span></div>
+        </div>
+        <div class="service__body">
+          <p>Spatial conflicts between building systems are inevitable on complex projects. We run comprehensive clash detection using Navisworks and Revit, identifying and resolving issues before they reach the construction site.</p>
+          <ul class="service__includes">
+            <li>Multi-discipline clash detection (MEP vs Structure vs Architecture)</li>
+            <li>Clash resolution and coordination meetings</li>
+            <li>4D sequencing support</li>
+            <li>Regular coordination model updates</li>
+            <li>Clash reports and resolution tracking</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="service reveal" id="service-3">
+        <div class="service__header" onclick="toggleService(3)">
+          <div class="service__num">03</div>
+          <h3 class="service__title">BIM Consulting &amp; Management</h3>
+          <div class="service__toggle"><span></span><span></span></div>
+        </div>
+        <div class="service__body">
+          <p>For firms looking to adopt or improve their BIM processes, we provide strategic consulting. From BIM Execution Plans to software training, we help teams work smarter.</p>
+          <ul class="service__includes">
+            <li>BIM Execution Plan development</li>
+            <li>Standards and template creation</li>
+            <li>Software selection and setup</li>
+            <li>Team training and upskilling</li>
+            <li>Project BIM management</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="service reveal" id="service-4">
+        <div class="service__header" onclick="toggleService(4)">
+          <div class="service__num">04</div>
+          <h3 class="service__title">Virtual Design &amp; Construction (VDC)</h3>
+          <div class="service__toggle"><span></span><span></span></div>
+        </div>
+        <div class="service__body">
+          <p>We bridge the gap between design models and construction reality. Our VDC services help project teams visualise, plan, and coordinate complex builds before breaking ground.</p>
+          <ul class="service__includes">
+            <li>Construction sequence visualisation</li>
+            <li>Prefabrication coordination</li>
+            <li>Site logistics planning</li>
+            <li>Progress tracking against BIM models</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="projects" id="projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-header__tag">Portfolio</span>
+      <h2 class="section-header__title">Our Projects</h2>
+      <p class="section-header__sub">A selection of projects delivered across Australia and the UK. Each one demanded precision MEP coordination on complex, large-scale builds.</p>
+    </div>
+
+    <div class="projects__filters reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+      <button class="filter-btn" data-filter="datacentre">Data Centres</button>
+      <button class="filter-btn" data-filter="commercial">Commercial</button>
+      <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+    </div>
+
+    <div class="projects__grid">
+      <!-- Healthcare -->
+      <div class="project-card reveal" data-category="healthcare">
+        <div class="project-card__img" style="--hue:200;--sat:40%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Healthcare</span>
+          <h3 class="project-card__title">Health Translation Hub</h3>
+          <p class="project-card__location">Medical Research Centre, Sydney, Australia</p>
+          <p class="project-card__desc">Full MEP BIM modelling and coordination for this state-of-the-art medical research facility. Complex mechanical systems including laboratory-grade HVAC and specialist ventilation.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="healthcare">
+        <div class="project-card__img" style="--hue:210;--sat:35%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Healthcare</span>
+          <h3 class="project-card__title">Westmead Hospital Redevelopment</h3>
+          <p class="project-card__location">Sydney, Australia</p>
+          <p class="project-card__desc">MEP coordination on one of Australia's largest hospital redevelopments. Multi-phase delivery requiring precise staging of mechanical and electrical systems across live clinical environments.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="healthcare">
+        <div class="project-card__img" style="--hue:195;--sat:45%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Healthcare</span>
+          <h3 class="project-card__title">ORIEL Eye Health Centre</h3>
+          <p class="project-card__location">London, UK</p>
+          <p class="project-card__desc">BIM modelling and coordination for a specialist eye health facility. Detailed MEP systems designed around sensitive clinical and research environments.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="healthcare">
+        <div class="project-card__img" style="--hue:205;--sat:38%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Healthcare</span>
+          <h3 class="project-card__title">B316 CURTIN</h3>
+          <p class="project-card__location">Health Medical Centre, Australia</p>
+          <p class="project-card__desc">MEP modelling for a modern healthcare facility requiring careful coordination of medical gas, HVAC, and electrical systems.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="healthcare">
+        <div class="project-card__img" style="--hue:215;--sat:42%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Healthcare</span>
+          <h3 class="project-card__title">Lang Walker Medical Research Centre</h3>
+          <p class="project-card__location">Sydney, Australia</p>
+          <p class="project-card__desc">Comprehensive MEP BIM delivery for an advanced medical research building. Laboratory ventilation and fume extraction systems modelled to exacting standards.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="healthcare">
+        <div class="project-card__img" style="--hue:190;--sat:36%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Healthcare</span>
+          <h3 class="project-card__title">The Tweed Hospital</h3>
+          <p class="project-card__location">New South Wales, Australia</p>
+          <p class="project-card__desc">MEP coordination and clash detection for a major regional hospital build. Complex services routing through multi-storey clinical wings.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="healthcare">
+        <div class="project-card__img" style="--hue:220;--sat:40%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Healthcare</span>
+          <h3 class="project-card__title">Wyvern Hospital</h3>
+          <p class="project-card__location">UK</p>
+          <p class="project-card__desc">Full MEP BIM package for a new hospital development. Coordination of mechanical, electrical, and plumbing services across surgical, diagnostic, and ward areas.</p>
+        </div>
+      </div>
+
+      <!-- Data Centres -->
+      <div class="project-card reveal" data-category="datacentre">
+        <div class="project-card__img" style="--hue:160;--sat:50%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Data Centre</span>
+          <h3 class="project-card__title">SYD3 Airtrunk Data Centre</h3>
+          <p class="project-card__location">Sydney, Australia</p>
+          <p class="project-card__desc">MEP modelling for a hyperscale data centre. Precision cooling systems, power distribution, and containment solutions modelled for maximum uptime and efficiency.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="datacentre">
+        <div class="project-card__img" style="--hue:170;--sat:45%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Data Centre</span>
+          <h3 class="project-card__title">SHDC Data Centre</h3>
+          <p class="project-card__location">Australia</p>
+          <p class="project-card__desc">Detailed MEP coordination for a secure data centre facility. Critical power and cooling infrastructure modelled and clash-checked to ensure zero-downtime construction.</p>
+        </div>
+      </div>
+
+      <!-- Commercial -->
+      <div class="project-card reveal" data-category="commercial">
+        <div class="project-card__img" style="--hue:30;--sat:35%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Commercial</span>
+          <h3 class="project-card__title">85 Macquarie Street</h3>
+          <p class="project-card__location">Sydney, Australia</p>
+          <p class="project-card__desc">MEP BIM modelling for a premium commercial workplace in Sydney's CBD. Coordinated mechanical and electrical systems across multiple tenancy floors.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="commercial">
+        <div class="project-card__img" style="--hue:25;--sat:30%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Commercial</span>
+          <h3 class="project-card__title">TVC (Television Centre)</h3>
+          <p class="project-card__location">London, UK</p>
+          <p class="project-card__desc">MEP coordination for a landmark commercial redevelopment. Complex heritage constraints required innovative services routing and detailed 3D modelling.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="commercial">
+        <div class="project-card__img" style="--hue:35;--sat:32%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Commercial</span>
+          <h3 class="project-card__title">Bourke &amp; Bowden</h3>
+          <p class="project-card__location">Sydney, Australia</p>
+          <p class="project-card__desc">Commercial workplace MEP modelling with a focus on efficient HVAC distribution and coordinated electrical layouts.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="commercial">
+        <div class="project-card__img" style="--hue:20;--sat:28%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Commercial</span>
+          <h3 class="project-card__title">One Exchange</h3>
+          <p class="project-card__location">UK</p>
+          <p class="project-card__desc">Full MEP BIM delivery for a modern commercial office development. Detailed modelling of building services to support flexible workplace fitout.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="commercial">
+        <div class="project-card__img" style="--hue:340;--sat:25%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Commercial</span>
+          <h3 class="project-card__title">Chanel Boutique</h3>
+          <p class="project-card__location">Sydney, Australia</p>
+          <p class="project-card__desc">Specialist MEP coordination for a high-end retail fitout. Precision modelling of concealed services to meet exacting design standards.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="commercial">
+        <div class="project-card__img" style="--hue:40;--sat:30%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Commercial</span>
+          <h3 class="project-card__title">KP Snacks</h3>
+          <p class="project-card__location">UK</p>
+          <p class="project-card__desc">MEP coordination for a commercial facility. Building services modelled and coordinated to support production and office environments.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="commercial">
+        <div class="project-card__img" style="--hue:28;--sat:33%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Commercial</span>
+          <h3 class="project-card__title">Newmarket Randwick</h3>
+          <p class="project-card__location">Sydney, Australia</p>
+          <p class="project-card__desc">MEP BIM modelling for a mixed-use commercial development. Coordinated services across retail, residential, and public spaces.</p>
+        </div>
+      </div>
+
+      <!-- Infrastructure -->
+      <div class="project-card reveal" data-category="infrastructure">
+        <div class="project-card__img" style="--hue:240;--sat:30%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Infrastructure</span>
+          <h3 class="project-card__title">WA Airport</h3>
+          <p class="project-card__location">Perth, Australia</p>
+          <p class="project-card__desc">MEP BIM modelling and coordination for airport terminal infrastructure. Large-span mechanical systems and complex services distribution across departure and arrivals zones.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="infrastructure">
+        <div class="project-card__img" style="--hue:250;--sat:28%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Infrastructure</span>
+          <h3 class="project-card__title">Pilgrim&rsquo;s Quarter</h3>
+          <p class="project-card__location">Newcastle, UK</p>
+          <p class="project-card__desc">MEP coordination for a major government and civic hub. Multi-building services coordination with centralised plant and distributed systems.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="infrastructure">
+        <div class="project-card__img" style="--hue:260;--sat:25%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Infrastructure</span>
+          <h3 class="project-card__title">Chryston School Extension</h3>
+          <p class="project-card__location">Scotland, UK</p>
+          <p class="project-card__desc">MEP modelling for an education facility expansion. Efficient HVAC and electrical systems designed for learning environments.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-category="infrastructure">
+        <div class="project-card__img" style="--hue:245;--sat:32%"></div>
+        <div class="project-card__content">
+          <span class="project-card__tag">Infrastructure</span>
+          <h3 class="project-card__title">Larkhall Leisure Centre</h3>
+          <p class="project-card__location">Scotland, UK</p>
+          <p class="project-card__desc">MEP coordination for a community leisure facility. Pool hall ventilation, changing area extract, and sports hall mechanical systems modelled and coordinated.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-header__tag">Who We Are</span>
+      <h2 class="section-header__title">About VelarBIM</h2>
+    </div>
+
+    <div class="about__intro reveal">
+      <div class="about__intro-text">
+        <p>VelarBIM is a specialist BIM consultancy focused on the MEP disciplines. Founded by Ahmad, we bring over a decade of hands-on engineering experience to every project.</p>
+        <p>We work with contractors, developers, and design firms across Australia and the UK, providing the technical expertise needed to deliver complex building services on time and without surprises.</p>
+      </div>
+    </div>
+
+    <div class="about__founder reveal">
+      <div class="about__founder-photo">
+        <div class="about__founder-photo-placeholder">A</div>
+      </div>
+      <div class="about__founder-info">
+        <h3>Ahmad</h3>
+        <span class="about__founder-role">MEP BIM/VDC Mechanical Engineer &amp; Founder</span>
+        <p>Ahmad is an MEP BIM/VDC Mechanical Engineer with more than 10 years of experience delivering BIM solutions on major construction projects. His portfolio spans hospitals, data centres, commercial towers, airports, and educational facilities across Sydney, London, and regional centres in both countries. He combines deep technical knowledge of MEP systems with practical construction experience, ensuring models are not just accurate but buildable.</p>
+      </div>
+    </div>
+
+    <div class="about__tools reveal">
+      <h3 class="about__tools-title">Software &amp; Tools</h3>
+      <div class="about__tools-grid">
+        <div class="tool-card">
+          <div class="tool-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 7h10M7 12h10M7 17h6"/></svg>
+          </div>
+          <span class="tool-card__name">Autodesk Revit</span>
+          <span class="tool-card__desc">Primary BIM Platform</span>
+        </div>
+        <div class="tool-card">
+          <div class="tool-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/><path d="M5.6 5.6l12.8 12.8M18.4 5.6L5.6 18.4"/></svg>
+          </div>
+          <span class="tool-card__name">Navisworks</span>
+          <span class="tool-card__desc">Clash Detection</span>
+        </div>
+        <div class="tool-card">
+          <div class="tool-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+          </div>
+          <span class="tool-card__name">BIM 360 / ACC</span>
+          <span class="tool-card__desc">Collaboration</span>
+        </div>
+        <div class="tool-card">
+          <div class="tool-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/></svg>
+          </div>
+          <span class="tool-card__name">AutoCAD</span>
+          <span class="tool-card__desc">2D Documentation</span>
+        </div>
+        <div class="tool-card">
+          <div class="tool-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+          </div>
+          <span class="tool-card__name">Revizto</span>
+          <span class="tool-card__desc">Issue Tracking</span>
+        </div>
+        <div class="tool-card">
+          <div class="tool-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+          </div>
+          <span class="tool-card__name">Onshape</span>
+          <span class="tool-card__desc">Product Design</span>
+        </div>
+        <div class="tool-card">
+          <div class="tool-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/></svg>
+          </div>
+          <span class="tool-card__name">MATLAB</span>
+          <span class="tool-card__desc">Engineering Analysis</span>
+        </div>
+        <div class="tool-card">
+          <div class="tool-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3v18h18"/><path d="M7 17l4-8 4 4 5-9"/></svg>
+          </div>
+          <span class="tool-card__name">HAP</span>
+          <span class="tool-card__desc">HVAC Load Calculations</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__awards reveal">
+      <h3 class="about__awards-title">Awards &amp; Recognition</h3>
+      <div class="about__awards-grid">
+        <div class="award-card">
+          <div class="award-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 15l-3 6h6l-3-6z"/><circle cx="12" cy="9" r="6"/><path d="M9 4.5l1.5 3 3-1.5"/></svg>
+          </div>
+          <h4>Patent Holder</h4>
+          <p>Solar Blinds Product &mdash; innovative sustainable building solution</p>
+        </div>
+        <div class="award-card">
+          <div class="award-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 9H4.5a2.5 2.5 0 010-5C7 4 7 7 7 7"/><path d="M18 9h1.5a2.5 2.5 0 000-5C17 4 17 7 17 7"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 1012 0V2z"/></svg>
+          </div>
+          <h4>Startup Seeds</h4>
+          <p>2nd Place &mdash; Entrepreneurial Competition</p>
+        </div>
+        <div class="award-card">
+          <div class="award-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12,2 15,9 22,9 17,14 18.5,21 12,17 5.5,21 7,14 2,9 9,9"/></svg>
+          </div>
+          <h4>Innovate for Energy</h4>
+          <p>3rd Place &mdash; Energy Innovation Competition</p>
+        </div>
+        <div class="award-card">
+          <div class="award-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+          </div>
+          <h4>Stars of Science</h4>
+          <p>Participant &mdash; Region's leading innovation programme</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__community reveal">
+      <div class="about__community-inner">
+        <h3>Community</h3>
+        <p>Ahmad volunteers with the Children&rsquo;s Cancer Centre in Lebanon, supporting young patients and their families. This commitment to community reflects the values that drive VelarBIM.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact__wrapper">
+      <div class="contact__info reveal">
+        <span class="section-header__tag">Get in Touch</span>
+        <h2 class="contact__title">Let&rsquo;s Talk About Your Project</h2>
+        <p class="contact__sub">Whether you need MEP BIM modelling, coordination support, or BIM consulting, we&rsquo;re ready to help. Get in touch to discuss your requirements.</p>
+
+        <div class="contact__details">
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <span class="contact__detail-label">Australia</span>
+              <a href="tel:+61452363649">+61 452 363 649</a>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <span class="contact__detail-label">Lebanon</span>
+              <a href="tel:+96171759025">+961 71 759 025</a>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <span class="contact__detail-label">Email</span>
+              <a href="mailto:info@velarbim.com">info@velarbim.com</a>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <span class="contact__detail-label">Locations</span>
+              <span>Sydney, Australia &amp; Tripoli, Lebanon</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="contact__promise">Send us a brief and we&rsquo;ll get back to you within 24 hours.</p>
+      </div>
+
+      <form class="contact__form reveal" id="contactForm" action="mailto:info@velarbim.com" method="POST" enctype="text/plain">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required placeholder="your@email.com">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="+61 400 000 000">
+        </div>
+        <div class="form-group">
+          <label for="projectType">Project Type</label>
+          <select id="projectType" name="projectType" required>
+            <option value="" disabled selected>Select a service</option>
+            <option value="MEP BIM Modelling">MEP BIM Modelling</option>
+            <option value="Clash Detection & Coordination">Clash Detection &amp; Coordination</option>
+            <option value="BIM Consulting & Management">BIM Consulting &amp; Management</option>
+            <option value="Virtual Design & Construction">Virtual Design &amp; Construction</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project..."></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="#hero" class="footer__logo">
+          <span class="nav__logo-mark">V</span>
+          <span>VelarBIM</span>
+        </a>
+        <p>Specialist MEP BIM consultancy delivering precision modelling, coordination, and consulting across Australia and the UK.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+61452363649">+61 452 363 649</a></li>
+          <li><a href="tel:+96171759025">+961 71 759 025</a></li>
+          <li><a href="mailto:info@velarbim.com">info@velarbim.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 VelarBIM. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
