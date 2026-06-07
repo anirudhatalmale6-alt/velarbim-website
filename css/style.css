@@ -18,8 +18,8 @@
   --gray-800: #2d3440;
   --text: #1a1f28;
   --text-light: #5a6473;
-  --font-display: 'Instrument Serif', Georgia, serif;
-  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
   --ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --transition: 0.4s var(--ease);
@@ -271,10 +271,11 @@ ul { list-style: none; }
 }
 .hero__title {
   font-family: var(--font-display);
-  font-weight: 400;
+  font-weight: 800;
   color: var(--white);
   line-height: 1.1;
   margin-bottom: 28px;
+  letter-spacing: -0.03em;
 }
 .hero__title-line {
   display: block;
@@ -284,7 +285,7 @@ ul { list-style: none; }
   color: rgba(255,255,255,0.85);
 }
 .hero__title-accent em {
-  font-style: italic;
+  font-style: normal;
   color: var(--blue-bright);
 }
 .hero__sub {
@@ -385,8 +386,10 @@ ul { list-style: none; }
 .stats__number {
   font-family: var(--font-display);
   font-size: 4rem;
+  font-weight: 800;
   color: var(--white);
   line-height: 1;
+  letter-spacing: -0.03em;
 }
 .stats__plus {
   font-family: var(--font-display);
@@ -447,10 +450,10 @@ ul { list-style: none; }
 .section-header__title {
   font-family: var(--font-display);
   font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 400;
+  font-weight: 700;
   color: var(--navy);
   margin-bottom: 16px;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
 }
 .section-header__sub {
   color: var(--text-light);
@@ -730,8 +733,10 @@ ul { list-style: none; }
 .about__founder-info h3 {
   font-family: var(--font-display);
   font-size: 1.8rem;
+  font-weight: 700;
   color: var(--navy);
   margin-bottom: 4px;
+  letter-spacing: -0.02em;
 }
 .about__founder-role {
   display: block;
@@ -867,9 +872,11 @@ ul { list-style: none; }
 .contact__title {
   font-family: var(--font-display);
   font-size: clamp(2rem, 3.5vw, 2.8rem);
+  font-weight: 700;
   color: var(--white);
   margin: 16px 0 20px;
   line-height: 1.15;
+  letter-spacing: -0.02em;
 }
 .contact__sub {
   color: rgba(255,255,255,0.5);
