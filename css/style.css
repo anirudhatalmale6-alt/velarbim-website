@@ -783,6 +783,12 @@ ul { list-style: none; }
   margin: 0 auto 16px;
   color: var(--blue);
 }
+.tool-card__icon--brand {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  overflow: hidden;
+}
 .tool-card__icon svg { width: 100%; height: 100%; }
 .tool-card__name {
   display: block;
