@@ -1048,7 +1048,7 @@ ul { list-style: none; }
    Responsive
    ============================================ */
 @media (max-width: 1024px) {
-  .overview__grid { grid-template-columns: 1fr; gap: 1px; }
+  .overview__grid { grid-template-columns: repeat(2, 1fr); gap: 1px; }
   .projects__grid { grid-template-columns: repeat(2, 1fr); }
   .about__tools-grid { grid-template-columns: repeat(3, 1fr); }
   .about__awards-grid { grid-template-columns: repeat(2, 1fr); }
