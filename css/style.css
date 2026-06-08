@@ -789,6 +789,15 @@ ul { list-style: none; }
   border-radius: 10px;
   overflow: hidden;
 }
+.tool-card__icon--logo {
+  width: 48px;
+  height: 48px;
+}
+.tool-card__icon--logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 .tool-card__icon svg { width: 100%; height: 100%; }
 .tool-card__name {
   display: block;
